@@ -1,3 +1,4 @@
-import { count } from './count.js'
+import { count, increase } from './count.js'
 
-console.log(count) // 0
+increase()
+console.log(count) // 1
